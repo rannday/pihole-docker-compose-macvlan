@@ -3,8 +3,9 @@
 
 ## Setup
 
-The connection to the server is a trunk. Vlan 10 contains the network for the Pihole. Gateway 
-192.168.0.1/24 resides on the firewall. The Pihole is 192.168.0.2. eth0.10 is the interface.
+Firewall <- Trunk (Vlan 10,20,30,etc) -> Server
+eth0.10 for the vlan 10 network
+192.168.10.1/24 is the gateway
 
 ### Create the macvlan network in Docker
 
