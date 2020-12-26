@@ -3,9 +3,9 @@
 
 ## Setup
 
-Firewall <- Trunk (Vlan 10,20,30,etc) -> Server
-eth0.10 for the vlan 10 network
-192.168.10.1/24 is the gateway
+Firewall <- Trunk (Vlan 10,20,30,etc) -> Server  
+eth0.10 for the vlan 10 network  
+192.168.10.1/24 is the gateway  
 
 ### Create the macvlan network in Docker
 
