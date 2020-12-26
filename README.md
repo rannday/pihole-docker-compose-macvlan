@@ -10,7 +10,7 @@ The connection to the server is a trunk. Vlan 10 contains the network for the Pi
 
 ```
 $ docker network create -d macvlan \
---subnet=192.168.0.0/24
+--subnet=192.168.0.0/24 \
 --gateway=192.168.0.1 \
 -o parent=eth0.10 macvlan10
 ```
